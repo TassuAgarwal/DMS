@@ -602,7 +602,7 @@ ul.right_icon li img {
 }
 
 .pa_left {
-  padding-left: 0;
+  padding-left: 0; 
   padding-right: 0;
 }
 
@@ -922,7 +922,7 @@ ul.right_icon li img {
 }
 
 .copyright a:hover {
-  color: #f9bf16;
+  color: #25cb11;
 }
 
 /** end footer **/
@@ -934,7 +934,7 @@ ul.right_icon li img {
 }
 
 .blue_bg {
-  background-color: #f3a20d;
+  background-color: #25cb11;
   padding: 35px 0;
 }
 
@@ -1036,7 +1036,7 @@ ul.right_icon li img {
   font-size: 17px;
   font-weight: normal;
   padding: 0 15px;
-  box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
+  box-shadow: 0 0 5px #25cb117a;
 }
 
 .main_form .contactusmess {
@@ -1050,7 +1050,7 @@ ul.right_icon li img {
   color: #183661;
   font-size: 17px;
   font-weight: normal;
-  box-shadow: 0 0 5px rgba(243, 195, 30, 0.5);
+  box-shadow: 0 0 5px #25cb117a;
 }
 
 .send_btn {
