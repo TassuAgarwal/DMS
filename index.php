@@ -21,7 +21,7 @@
 
 <body class="main-layout">
 
-<?php include 'header.php' ?>
+   <?php include 'header.php' ?>
 
    <section class="banner_main">
       <div class="container">
@@ -46,198 +46,202 @@
             </div>
          </div>
          <div class="row">
-            <div class="product_main">
+            <div class="product_main container py-5">
+               <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/1.Ventilator.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/1.Ventilator.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Ventilator</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Ventilator</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/2.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/2.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Infant Care System</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Infant Care System</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/3. O.T Equipments.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/3. O.T Equipments.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">O.T Equipments</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>O.T Equipments</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/4. Electrosurgical Units.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/4. Electrosurgical Units.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Electrosurgical Units</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Electrosurgical Units</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/5. all Defibrillator.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/5. all Defibrillator.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Defibrillator</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Defibrillator</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/6. IABP Machine (Intra Aortic Balloon Pump).png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/6. IABP Machine (Intra Aortic Balloon Pump).png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Intra Aortic Balloon Pump</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Intra Aortic Balloon Pump</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/7. Patient Monitors.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/7. Patient Monitors.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Patient Monitors</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Patient Monitors</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/8. 12 Channel ECG Machine.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/8. 12 Channel ECG Machine.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Channel ECG Machine</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Channel ECG Machine</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/9. all  Oxygen Concentrators.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/9. all  Oxygen Concentrators.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">Oxygen Concentrators</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>Oxygen Concentrators</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
-               </div>
 
-               <div id="card">
-                  <div class="bg-image hover-overlay">
-                     <img src="images/10. All Accessories.png" class="img-fluid" />
+                  <div class="col">
+                     <div class="card">
+                        <div class="bg-image hover-overlay">
+                           <img src="images/10. All Accessories.png" class="img-fluid" />
+                        </div>
+                        <div class="card-body">
+                           <h5 class="card-title font-weight-bold"><a href="#">All Accessories</a></h5>
+                           <ul class="list-unstyled list-inline d-flex justify-content-between">
+                              <li class="list-inline-item me-0">
+                                 <a style="background-color: #183661; padding:5px ; color : white ;" href="#">Read More..</a>  
+                              </li>
+                              <li class="list-inline-item me-0">
+                                 <button><img src="images/whatsapp.png" alt=""></button>
+                              </li>
+                           </ul>
+                        </div>
+                     </div>
                   </div>
-                  <div class="card-body">
-                     <h5 class="card-title font-weight-bold"><a>All Accessories</a></h5>
-                     <ul class="list-unstyled list-inline d-flex justify-content-between">
-                        <li class="list-inline-item me-0">
-                           <a href="">
-                              Read More..
-                           </a>
-                        </li>
-                        <li class="list-inline-item me-0">
-                           <button><img src="images/whatsapp.png" alt=""></button>
-                        </li>
-                     </ul>
-                  </div>
+
                </div>
             </div>
+
          </div>
       </div>
    </div>

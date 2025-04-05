@@ -207,7 +207,7 @@
         display: none !important;
     }
     .logo {
-        float: left;
+        /* float: left; */
         border: inherit;
         margin-top: 0px !important;
     }
